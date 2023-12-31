@@ -1,9 +1,10 @@
 {
 	"name": "github-info",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A simple project that can help you in using the GitHub API.",
 	"main": "src/index.js",
 	"scripts": {
+		"lint": "npx prettier --check \"{*,src/**/*}.{js,json}\"",
 		"format": "npx prettier --write \"{*,src/**/*}.{js,json}\""
 	},
 	"dependencies": {
